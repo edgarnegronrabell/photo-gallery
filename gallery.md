@@ -18,5 +18,5 @@ Image Links
 ===========
 The Colors
 ===========
-DARK BLUE: #2c3e50
+DARK BLUE: 
 LIGHT GRAY: #ecf0f1

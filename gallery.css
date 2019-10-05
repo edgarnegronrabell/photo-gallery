@@ -6,3 +6,14 @@ h2 {
 body {
   padding-top: 15vh;
 }
+.navbar-inverse {
+  background: #2c3e50;
+}
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-nav >li > a {
+  color: #fff;
+}
+.jumbotron {
+  color: #2c3e50;
+  background: #ecf0f1; 
+}
