@@ -2,7 +2,9 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"> 
+<!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,21 +16,97 @@
     <link rel="stylesheet" href="/07_Image_Gallery/gallery.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous" defer></script>
+            crossorigin="anonymous" defer>
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-            crossorigin="anonymous" defer></script>
+            crossorigin="anonymous" defer>
+    </script>
+    <script src="https://kit.fontawesome.com/fefc0600ce.js">
+    </script>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
-
+      
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" 
+                    data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" 
+                    aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture"></span> IMGS</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="#">About <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Log In</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
-      <div class="jumbotron">
-        <h1>The Image Gallery</h1>
+    <main class="container">
+      <div class="jumbotron">  
+        <h1><i class="fas fa-camera-retro"></i>  The Image Gallery</h1>
         <h2>A Bootstrap built Image Gallery</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://source.unsplash.com/c0J_nqrZwow" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://source.unsplash.com/12IHVEFRacQ" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://source.unsplash.com/l5Tzv1alcps" alt="">  
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="https://source.unsplash.com/VR8y40jx8II" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="https://source.unsplash.com/RbbdzZBKRDY" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="https://source.unsplash.com/7oS_26cb1Wo" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="https://source.unsplash.com/IJ25m7fXqtk" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="https://source.unsplash.com/02f3KC3zKPk" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="https://source.unsplash.com/wN7zqSa3Keg" alt="">
+          </div>
+        </div>
       </div>
     </main>
     <!--[if lt IE 7]>
